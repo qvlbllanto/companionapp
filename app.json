@@ -1,15 +1,17 @@
 {
   "expo": {
-    "name": "Reactna",
-    "slug": "Reactna",
+    "name": "Companion",
+    "description": "Companion is a lifestyle app that helps with your daily needs, it connects you with your very own companion that takes care of you as well as to monitor any mental health problems that may occur throughout the period you are with them, these companions can help with small tasks such carrying small loads, assisting you outside, as well as reminding you to take your medications, the end goal of this app is to help individuals and to improve lives with each day together with their companion",	
+    "slug": "Companion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+      "image": "./assets/splashpic.png",
+      "flex": 1,
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    }, 
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -20,13 +22,15 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.dawdas.dwad",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }
